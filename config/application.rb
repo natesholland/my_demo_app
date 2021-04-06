@@ -14,6 +14,7 @@ module MyDemoApp
     config.autoloader = :classic
 
     config.autoload_paths += Dir["#{config.root}/app/models"]
+    config.autoload_paths += Dir["#{config.root}/app/models/gadgets"]
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
